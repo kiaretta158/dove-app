@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Estrai il progetto
-        run: unzip -o "DoveApp-android (1).zip"
+        run: unzip -o "DoveApp-android.zip"
       - name: Imposta Java 17
         uses: actions/setup-java@v4
         with:
